@@ -25,7 +25,7 @@ SECRET_KEY = 'n2b_$y1vhf-5s%p+6^%oqy(*daxp8r0o3)b62*%%zm$!ctg7s)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
