@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn democloud.wsgi --log-file -
+web: NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program gunicorn democloud.wsgi --log-file -
